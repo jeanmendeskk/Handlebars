@@ -4,19 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeanmendeskk/Handlebars.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js localhost 3000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeanmendeskk/Handlebars/issues"
-  },
-  "homepage": "https://github.com/jeanmendeskk/Handlebars#readme",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2",
